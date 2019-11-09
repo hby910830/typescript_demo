@@ -6,7 +6,7 @@ console.log(anyThing.myName.firstName);
 
 //也允许调用任何方法：
 
-let anyThing: any = 'Tom';
+// let anyThing: any = 'Tom';
 anyThing.setName('Jerry');
 anyThing.setName('Jerry').sayHello();
 anyThing.myName.setFirstName('Cat');
